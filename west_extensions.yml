@@ -1,0 +1,9 @@
+# This file allows to reference the west extensions commands of the zephyr repository.
+# It is useful in the case that zephyr is not the manifest repository. Other required
+# dependencies are handled in the manifest repository which is a dedicated repository
+# according to the T3 workspace topology.
+
+manifest:
+  self:
+    path: zephyr
+    west-commands: scripts/west-commands.yml
